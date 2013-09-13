@@ -3,8 +3,8 @@
     "description": "Tool to convert from composer.yml to composer.json.",
     "license": "MIT",
     "require": {
-        "symfony/console": ">=2.1.*,<2.4.*@dev",
-        "symfony/yaml": ">=2.1.*,<2.4.*@dev",
+        "symfony/console": ">=2.1.0,<2.4",
+        "symfony/yaml": ">=2.1.0,<2.4",
         "composer/composer": "1.0.*@dev"
     },
     "bin": [
