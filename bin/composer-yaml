@@ -64,7 +64,7 @@ $console
         if ('json' === $outputFormat) {
             $outputContent = JsonFile::encode($data)."\n";
         } else {
-            $outputContent = Yaml::dump($data,3);
+            $outputContent = Yaml::dump($data,5);
         }
 
         file_put_contents($to, $outputContent);
